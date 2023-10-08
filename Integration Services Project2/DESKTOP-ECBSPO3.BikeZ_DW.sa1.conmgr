@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DESKTOP-ECBSPO3.BikeZ_DW.sa1"
+  DTS:DTSID="{0FFBB4B6-F128-4D70-BB82-B43049BCB989}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=DESKTOP-ECBSPO3;User ID=sa;Initial Catalog=BikeZ_DW;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA10bXL26ogkGkP7UiZY+mPgAAAAACAAAAAAAQZgAAAAEAACAAAAB0UQOcddXJm8o1Mr/FSp2yR89sRD6YVRAjHNv/Npw6CAAAAAAOgAAAAAIAACAAAABPch+q8uC4MoW3mg+jd4nUUT91qdwxI1NWFTZUG5saPIAAAAC8CLmIFQZ2poXXKjUHxuTjErBHy8nvC22owEtqsI0MDdPTxDbLRiDJ4Zq0nP+uf1SbgHZ+O9NZCu012Mf59Zqzbr4NJelUEO2UWHTX94MbT/WBTgUHiveavvTFDzxvTQISkziGsD4NO8gN5HWG+xbECeYKihZMDE9Vo39K/Np1cEAAAADE7wze/KKJAxxivwT0KpoT5gOvSi0FImv1eZh/uy5jQ/uHE7BlpT3e1QyfZijUvo3h/JGmpWJanuAzA1EG71u/</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
