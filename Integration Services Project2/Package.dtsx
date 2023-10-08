@@ -11,8 +11,8 @@
   DTS:LocaleID="3082"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="45"
-  DTS:VersionGUID="{0A9AA2EF-D917-4245-8104-DA5F198628A6}">
+  DTS:VersionBuild="46"
+  DTS:VersionGUID="{FD5EFCA6-7BB3-4996-9102-6734859F4A8B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -5273,7 +5273,7 @@ FROM            fact_ventas</property>
         <NodeLayout
           Size="182,42"
           Id="Package\Poblar DIM_DVENTAS"
-          TopLeft="433,297" />
+          TopLeft="441,293" />
         <NodeLayout
           Size="196,42"
           Id="Package\Poblar DIM_EMPLEADOS"
@@ -6185,14 +6185,6 @@ FROM            fact_ventas</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Poblar DIM_TERRITORIOS\DIM_TERRITORIO">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\Poblar DIM_TERRITORIOS\Destino de OLE DB">
     <Properties>
       <Property>
@@ -6202,6 +6194,14 @@ FROM            fact_ventas</property>
         <Name>TableInfoObjectType</Name>
         <Value
           type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Poblar DIM_TERRITORIOS\DIM_TERRITORIO">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -6400,10 +6400,15 @@ FROM            fact_ventas</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Poblar FACT_VENTAS\BD_VENTAS">
+    design-time-name="Package\Poblar FACT_VENTAS\Destino de OLE DB">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -6416,15 +6421,10 @@ FROM            fact_ventas</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Poblar FACT_VENTAS\Destino de OLE DB">
+    design-time-name="Package\Poblar FACT_VENTAS\BD_VENTAS">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
